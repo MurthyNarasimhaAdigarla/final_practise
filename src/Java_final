@@ -1,0 +1,145 @@
+Arrays:
+1.	If we have a single variable which can represent all the 50 variables, it would be very useful for us. such a variable is called as ARRAY
+2.	An array represents a group of elements of same data type
+3.	It can store group of elements
+4.	We cannot store some int values and some float values in same array
+5.	The main advantage of an arrays is that they simplify the programmers by replacing a lot of statements into just one or two statements
+6.	In java arrays are created on dynamic array. Allotted at runtime memory
+Types of arrays:
+They are two types
+1)	Single dimension arrays
+2)	Multi dimension arrays
+
+Single dimension arrays:
+1.	We can declare 1 dimensional array and directly store the elements at the time declaration itself
+	int marks [] = {10,20,30,40,50};
+
+2.	Another way is declaring the array first and then allotting memory for it by using new operator
+int marks [];
+marks=new int [5];
+These two statements scan also be written by combining then inti a single statement
+	int marks [] = new int [5];
+
+We have declared the array and allotted a memory for storing a element, but we dint stored actual elements in array .to store elements into the array we can use statements as below:
+marks [0] =50;
+marks [1] =60;
+marks [2] =70;
+marks [3] =80;
+marks [4] =90;
+or, we can pass the elements by using the for loop as below
+
+ for (int i=0;i<5;i++)
+{
+marks[i]=Integer.parseInt(br.readLine());
+}
+
+3.	Creating an empty array with specified length n
+int [] c= new int[length];
+Multi-Dimensional arrays:
+	Multi-Dimensional arrays represent s1d,2d arrays which are combination of several earlier type of arrays
+	A two dimensional array is a combination of two or more 1d arrays
+	A Three dimension array is a combination of two or more 2d arrays
+
+Creating a 2d arrays as below
+1.	We can create 2d arrays and directly store elements in it at the time of its declaration itself
+
+2.	Each row of elements should be written inside the curly braces {and}
+3.	The rows and elements in row should be separated by commas
+4.
+ E.g.: int marks [] [] = {{1,2,3,4,5}, {11,22,33,44,55}, {111,222,333,444,555}}
+
+5.	There are 3 rows and 5 columns in each row, so the JVM creates 3 * 5 =15 blocks of memory as there are 15 elements stored in array
+
+ 	J=0	J=2	J=2	J=3	J=4
+
+I=0	50	60	70	80	90
+I=1	40	41	42	43	44
+I=1	30	31	32	33	35
+
+
+
+
+
+
+6.By the above table arrangement, we can understand the rows are starting from 0 to 2 and columns are starting from 0 to 4, so any element can be referee in general as marks[i][j]
+
+
+  	7.Another way of creating 2D array:
+Another way of creating of 2D array is by declaring the array first and allotting a memory by using a new operator
+e.g.: int marks [] []; // declaring a 2d array
+      marks = new int [3][5]; // allotting memory for storing 15 elements
+
+	OR
+Int marks [] [] = new marks [3][5] ;
+
+8.Alternative way of writing a two dimensional array is y writing a two pairs of square brackets before of after the array name as
+String str[][]=new String[3][5];
+String [][] str = new String [3][5];
+
+
+Transpose Matrix:
+The transpose of a matrix is defined as the matrix obtained by converting the rows as columns and columns as rows, suppose we have a matrix with 3 rows and 4 columns, it transposes matrix will be as 4 rows and 3 columns
+Eg:
+import java.util.Scanner;
+
+public class Transpose_Matrix {
+    public static void main(String[] args) {
+        //use scanner to accept data from keyboard
+        Scanner sc = new Scanner(System.in);
+        //accept rows and cols for a matrix
+        System.out.println("Enter the values for rows and cols:: ");
+        int r = sc.nextInt();
+        int c = sc.nextInt();
+        //Creating an array with size r and c
+        int arr[][] = new int[r][c];
+        //accept a matrix from keyboard
+        System.out.println("Enter the elements of matrix:: ");
+        for (int i = 0; i < r; i++)
+            for (int j = 0; j < c; j++)
+                arr[i][j] = sc.nextInt();
+
+
+
+
+
+        System.out.println("The transpose matrix:: ");
+        for (int i = 0; i < c; i++)
+        {
+            for (int j = 0; j < r; j++) {
+                System.out.print(arr[j][i] + " ");
+
+            }
+            System.out.print("\n");
+        }
+
+    }
+}
+
+
+
+Three Dimensional Array:
+1.We can consider 3d array as a combination of several 2d arrays
+This concept is useful when we are using group of elements from another group of elements
+
+
+Pattern Printing:
+
+1)	Fix the size
+e.g: int n =5;
+
+2)	Put the nested loop, we can write nested loop in 2 ways
+
+for(int i=0;i<n;i++){
+System.out.println(“*”)}
+
+
+index : 0 to <n
+ 0,1,2,3,4
+
+For(int i=1;i<=n;i++){
+System.out.println(“*”)}
+
+Index: 1<=n
+
+1,2,3,4,5
+
