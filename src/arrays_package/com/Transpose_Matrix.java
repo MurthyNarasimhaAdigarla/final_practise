@@ -1,3 +1,5 @@
+package arrays_package.com;
+
 import java.util.Scanner;
 
 public class Transpose_Matrix {

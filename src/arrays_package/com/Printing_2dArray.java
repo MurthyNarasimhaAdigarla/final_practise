@@ -1,3 +1,5 @@
+package arrays_package.com;
+
 public class Printing_2dArray {
 
     //Printing 3 rows and 3 cols

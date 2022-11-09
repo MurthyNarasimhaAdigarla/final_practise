@@ -1,3 +1,5 @@
+package arrays_package.com;
+
 public class Printing_1dArray {
 
     public static void main(String args[]) {

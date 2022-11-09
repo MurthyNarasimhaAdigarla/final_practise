@@ -1,3 +1,5 @@
+package arrays_package.com;
+
 public class ReverseArray {
 
     public static void main(String[] args) {

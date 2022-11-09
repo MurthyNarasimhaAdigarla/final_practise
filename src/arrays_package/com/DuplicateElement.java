@@ -1,3 +1,5 @@
+package arrays_package.com;
+
 public class DuplicateElement {
 
 

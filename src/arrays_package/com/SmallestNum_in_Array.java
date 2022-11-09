@@ -1,3 +1,5 @@
+package arrays_package.com;
+
 public class SmallestNum_in_Array {
     public static void main(String[] args) {
         int arr[] = new int[]{45, 7, 9, 1, 109, 1990};
