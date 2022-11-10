@@ -1,0 +1,47 @@
+
+
+//increasing Space
+
+for (int j = 1; j <= i; j++) {
+        System.out.print("a ");
+        }
+//increasing stars
+
+        for (int j = 1; j <= i; j++) {
+        System.out.print("* ");
+        }
+//decreasing Spaces
+
+        for (int j = i; j <= n; j++) {
+        System.out.print("  ");
+        }
+
+
+//decreasing Stars
+
+for (int j = i; j <= n; j++) {
+    System.out.print("m ");
+}
+
+
+//increasing stars, replace "j <i" with "j <= i" for removing extra column in hill pattern
+
+        for (int j = 1; j < i; j++) {
+        System.out.print("* ");
+
+        }
+
+
+//basic Starting for loop
+
+        for (int i = 1; i <= n; i++) {
+
+
+        for(){}
+
+        for(){}
+
+        for(){}
+        
+        
+        }
