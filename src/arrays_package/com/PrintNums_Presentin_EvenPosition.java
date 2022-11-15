@@ -8,7 +8,11 @@ public class PrintNums_Presentin_EvenPosition {
 
             System.out.println(arr[i] + "");
 
+
+
         }
+
+
 
 
 
