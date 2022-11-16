@@ -1,4 +1,4 @@
-package strings.com;
+package strings.com.Chars;
 
 public class String_Char_by_Char_Template {
     public static void main(String[] args) {

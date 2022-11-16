@@ -1,0 +1,4 @@
+•	Equals method is present in Object class is used for reference or address comparison
+•	String and StringBuffer classes are child classes for Object class
+•	Equals method in String Class is used for CONTENT COMPARISON
+•	Equals method is not overridden by StringBuffer Class so it is used for reference or address comparison

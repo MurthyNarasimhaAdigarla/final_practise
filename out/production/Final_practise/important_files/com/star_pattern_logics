@@ -1,0 +1,69 @@
+
+
+1) How to start the Logic
+
+1) Count the number of rows and columns
+2) putting together the nested loops
+
+//increasing Space
+
+for (int j = 1; j <= i; j++) {
+        System.out.print("a ");
+        }
+//increasing stars
+
+        for (int j = 1; j <= i; j++) {
+        System.out.print("* ");
+        }
+//decreasing Spaces
+
+        for (int j = i; j <= n; j++) {
+        System.out.print("  ");
+        }
+
+
+//decreasing Stars
+
+for (int j = i; j <= n; j++) {
+    System.out.print("m ");
+}
+
+
+//increasing stars, replace "j <i" with "j <= i" for removing extra column in hill pattern
+
+        for (int j = 1; j < i; j++) {
+        System.out.print("* ");
+
+        }
+
+
+//basic Starting for loop
+
+        for (int i = 1; i <= n; i++) {
+
+
+        for(){}
+
+        for(){}
+
+        for(){}
+
+
+        }
+
+
+//We can use basic start for loop in two ways
+e.g:
+
+if n=5;
+
+        for(int i=0;i<n;i++){
+
+        System.out.println()
+        }
+
+
+        for(int i=1;i<=n;i++){
+
+        System.out.println()
+        }
