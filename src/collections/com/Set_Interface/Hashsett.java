@@ -14,6 +14,7 @@ public class Hashsett {
         hs.add("murthy");
         hs.add(90);
         hs.add(1);
+        hs.add('d');
         System.out.println(hs);
         System.out.println("Returns False while adding a duplicate"+hs.add(1));
 
