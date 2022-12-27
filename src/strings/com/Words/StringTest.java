@@ -6,20 +6,20 @@ public class StringTest {
 
         String s = "MurTHY Isd da rakkamma 9966GOOOd BoYyyy2366";
         s += " ";
-        String w = "";
+        String newS = "";
         String ns = "";
         for (int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);
             if (c != ' ')
-                w = w + c;
+                newS = newS + c;
             else {
-               char f=w.charAt(0);
-               char l=w.charAt(w.length()-1);
-               String m=w.substring(1,w.length()-1);
+               char f=newS.charAt(0);
+               char l=newS.charAt(newS.length()-1);
+               String m=newS.substring(1,newS.length()-1);
                ns=ns+l+m+f+" ";
 
 
-                w = "";
+                newS = "";
             }
         }
         System.out.println(ns);

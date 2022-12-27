@@ -1,14 +1,14 @@
 package arrays_package.com;
 
-public class SortDsc {
+ class SortDsc {
     public static void main(String[] args) {
 
-
+        //1D Array Template
         int arr[] = new int[]{41, 14, 8, 3, 10};
         for (int i = 0; i < arr.length; i++) {
             System.out.println(arr[i] + " ");
         }
-
+            //SORTING TEMPLATE
             int temp = 0;
             for (int i = 0; i < arr.length; i++) {
                 for (int j = i + 1; j < arr.length; j++) {
