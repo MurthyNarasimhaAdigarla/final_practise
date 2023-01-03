@@ -2,24 +2,36 @@ package java_practise.com;
 
 public class Constructorss {
 
-    int id;
-    String name;
+    int a;
+    int b;
 
-    public Constructorss(int eid, String ename) {
-        id = eid;
-        name = ename;
+
+    Constructorss() {
+
     }
 
-    public Constructorss(int eid) {
-        id = eid;
+    Constructorss(int x, int y) {
+        a = x;
+        b = y;
+
+
+    }
+
+    public void test() {
+        int z = a + b;
+        System.out.println(z);
+
     }
 
     public static void main(String[] args) {
-
-        Constructorss c = new Constructorss(15, "m");
-        System.out.println(c.id + "   " + c.name);
-        Constructorss c1 = new Constructorss(12);
-        System.out.println(c1.id);
+        Constructorss c1 = new Constructorss();
+        Constructorss c2 = new Constructorss(10, 20);
+        Constructorss c3 = new Constructorss(30, 40);
+        c1.test();
+        c2.test();
+        c3.test();
 
     }
+
+
 }

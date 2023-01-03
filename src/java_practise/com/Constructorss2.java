@@ -19,6 +19,7 @@ public class Constructorss2 {
         Date d = new Date();
 
         System.out.println("mmmm" + Calendar.getInstance());
+        System.out.println(Math.sin(1));
 
 
     }
@@ -26,6 +27,7 @@ public class Constructorss2 {
 
     public Constructorss2(int aa) {
         a = aa;
+        Math.sin(1.2);
 
 
     }
