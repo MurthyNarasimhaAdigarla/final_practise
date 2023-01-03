@@ -7,6 +7,8 @@ public class Alter_Cols_By_Specifying_ColNo {
     //Printing the all elements by multiplying with 10
     public static void main(String[] args) {
         int marks[][] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+
+
         alterColsBySpecifyingColNo(marks);
 
         for (int i = 0; i < marks.length; i++) {
@@ -32,11 +34,11 @@ public class Alter_Cols_By_Specifying_ColNo {
 }
 
 
-//        7 8 9
-//        4 5 6
-//        1 2 3
+                //        7 8 9
+                //        4 5 6
+                //        1 2 3
 
 
-//00 01 02
-//10 11 12
-//20 11 22
+                        //00 01 02
+                        //10 11 12
+                        //20 11 22

@@ -15,14 +15,14 @@ public class Arraylistt {
         al.add(4);
         al.add(null);
         System.out.println(al);
-        al.add(1,2);
+        al.add(1, 2);
 
 
         System.out.println(al.size());
 
 
-        List l= Collections.synchronizedList(al);
-        System.out.println("pppp"+l);
+        List l = Collections.synchronizedList(al);
+        System.out.println("pppp" + l);
 
     }
 }

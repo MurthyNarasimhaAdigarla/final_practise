@@ -11,10 +11,8 @@ public class Count_Chars_In_String {
             c = Character.toLowerCase(c);
             if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u')
                 count++;
-            else if (c!=' ')
+            else if (c != ' ')
                 count1++;
-
-
         }
         System.out.println(count + "and " + count1);
 
