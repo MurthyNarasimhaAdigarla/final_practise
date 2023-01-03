@@ -21,7 +21,7 @@ public class Second_Largest_Num_In_Array {
                 }
             }
         }
-        return marks[length - 3];
+        return marks[length -2];
 
     }
 
