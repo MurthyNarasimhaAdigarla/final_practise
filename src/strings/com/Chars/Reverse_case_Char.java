@@ -15,6 +15,7 @@ public class Reverse_case_Char {
                 r = r + Character.toUpperCase(c);
 
 
+
         }
         System.out.println(r);
     }

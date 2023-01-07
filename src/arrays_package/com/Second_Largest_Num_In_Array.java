@@ -4,11 +4,11 @@ package arrays_package.com;
 public class Second_Largest_Num_In_Array {
 
     public static void main(String[] args) {
-        int marks[] = {2, 5, 5, 70, 4, 490, 560, 890, 550};
+        int[] marks = {2, 5, 5, 70, 4, 490, 560, 890, 550};
         System.out.println(second(marks));
     }
 
-    public static int second(int marks[]) {
+    public static int second(int[] marks) {
         int temp;
         int length = marks.length;
         for (int i = 0; i < marks.length; i++) {
@@ -21,7 +21,7 @@ public class Second_Largest_Num_In_Array {
                 }
             }
         }
-        return marks[length -2];
+        return marks[length -1];
 
     }
 

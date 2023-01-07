@@ -5,19 +5,17 @@ public class Ends_With_Words {
 
         String s = "MurTHY Isd a rakkamma 9966GOOOd BoYyyy2366";
         s += " ";
-        String w = "";
-
-
+        String sn = "";
         for (int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);
             if (c != ' ')
-                w = w + c;
+                sn = sn + c;
 
             else {
-                if (w.endsWith("d"))
-                    System.out.println(w);
+                if (sn.endsWith("d"))
+                    System.out.println(sn);
 
-                w = "";
+                sn = "";
             }
 
         }

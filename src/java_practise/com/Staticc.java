@@ -21,7 +21,7 @@ public class Staticc {
     }
 
     public void test() {
-        //System.out.println("Murthy Test");
+        //System.out.println("Murthy Person");
         System.out.println(rollno + " -->" + name + "-->" + college);
 
     }

@@ -39,7 +39,7 @@ public class Gmail {
 
 	public void createEmailMessage() throws AddressException, MessagingException {
 		String[] toEmails = {"nadigarla@niusm.com"};
-		String emailSubject = "Murthy Test Email";
+		String emailSubject = "Murthy Person Email";
 		String emailBody = "This is an email sent by Murthy.";
 
 		mailSession = Session.getDefaultInstance(emailProperties, null);

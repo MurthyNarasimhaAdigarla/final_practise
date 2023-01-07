@@ -15,5 +15,6 @@ public class Extract_UC_Chars {
 
         System.out.println(new_s);
 
+
     }
 }

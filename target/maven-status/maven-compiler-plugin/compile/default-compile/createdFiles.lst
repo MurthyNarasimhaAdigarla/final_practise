@@ -80,13 +80,13 @@ collections\com\Set_Interface\Comparatorr$1.class
 java_practise\com\My_Calculation.class
 star_pattern\com\Increasing_triangle_pattern.class
 arrays_package\com\Sumof_elements_inArray.class
-strings\com\Chars\Count_Chars_In_String.class
 others\com\src\Basic_Programs\StringReverseee.class
 arrays_package\com\Transpose_Matrix.class
 arrays_package\com\Printing_First_Last_Cows_Cols.class
 others\com\src\Basic_Programs\RemoveUnwanted.class
 collections\com\Map_Interface\TreeMapp.class
 arrays_package\com\SmallestNum_in_Array.class
+star_pattern\com\Person.class
 strings\com\Chars\String_Char_by_Char_Template.class
 java_practise\com\Variables.class
 strings\com\Chars\COunt_Vowels_And_Consonents.class
@@ -101,7 +101,9 @@ others\com\src\String_Programs\CheckForWhiteSpaces.class
 strings\com\Chars\Count_Of_Chars.class
 arrays_package\com\largestNum_in_Array.class
 strings\com\Chars\Count_Uppercase_Chars.class
+java_practise\com\TestThis2.class
 others\com\src\String_Programs\PrintonlyEVENnumberWords.class
+arrays_package\com\Convertings.class
 arrays_package\com\PrintNums_Presentin_OddPosition.class
 arrays_package\com\Printing_Array_Multiplying.class
 others\com\src\String_Programs\WordsReverseinString.class
@@ -134,6 +136,7 @@ arrays_package\com\Alter_Cols_By_Specifying_ColNo.class
 others\com\src\allStars\DiamondPattern.class
 others\com\src\failedTestCases\TestCase2.class
 others\com\src\Basic_Programs\NumberofdigitsinGivenNumber.class
+java_practise\com\Staticc.class
 others\com\src\Basic_Programs\MultiplicationTable.class
 others\com\src\Basic_Programs\TypeN.class
 others\com\src\String_Programs\DuplicateWord.class
@@ -141,6 +144,7 @@ others\com\src\Finding_LargestANDSmallest_Numbers\LargestNumber.class
 strings\com\Words\Print_Second_Chars_in_String.class
 star_pattern\com\Reverse_Hill_Pattern.class
 others\com\src\String_Programs\CountCharacter.class
+java_practise\com\Innheritanceee.class
 arrays_package\com\DuplicateElement.class
 others\com\src\prac\Parent.class
 others\com\src\Basic_Programs\SumOfDigits.class
@@ -148,7 +152,9 @@ others\com\src\Basic_Programs\Strinbuffer.class
 others\com\src\failedTestCases\TestCase1.class
 others\com\src\Sorting\SelectionSort.class
 others\com\src\Basic_Programs\SortingCharacters.class
+java_practise\com\Student.class
 collections\com\Set_Interface\Hashsett.class
 others\com\src\allStars\Pattern1.class
+java_practise\com\Innheritancee.class
 star_pattern\com\PyramidPattern.class
 arrays_package\com\Alter_Rows_By_Specifying_RowNo.class

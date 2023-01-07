@@ -6,11 +6,10 @@ public class Reverse_String_Char {
         String ns = "";
 
         for (int i = 0; i < s.length(); i++) {
-
             char c = s.charAt(i);
-             ns = c + ns;
+            ns = c + ns;
         }
 
-            System.out.println("Its is ::" + ns);
+        System.out.println("Its is ::" + ns);
     }
 }

@@ -22,11 +22,11 @@ abstract class Test1 {
 
 		// Write Content
 		FileWriter writer = new FileWriter(file);
-		writer.write("Test data");
+		writer.write("Person data");
 		writer.close();
 		
 		//2
-		String data = "Test data";
+		String data = "Person data";
 		FileOutputStream fileoutputstream = new FileOutputStream("E://Java_Files//MurthyText2.txt");
 		fileoutputstream.write(data.getBytes());
 		fileoutputstream.close();
