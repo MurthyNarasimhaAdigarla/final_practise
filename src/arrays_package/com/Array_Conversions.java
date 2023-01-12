@@ -13,7 +13,7 @@ public class Array_Conversions {
 
         String mm = Arrays.toString(marks);
 
-        List bbb = Arrays.asList(mm);
+        List<String> bbb = Arrays.asList(mm);
 
         HashSet<String> hset = new HashSet<>(bbb);
         hset.addAll(bbb);
