@@ -14,7 +14,7 @@ public class Alter_Cols_By_Specifying_ColNo {
         for (int i = 0; i < marks.length; i++) {
             for (int j = 0; j < 3; j++) {
                 System.out.print(marks[i][j] + " ");
-            }
+        }
             System.out.println();
         }
     }

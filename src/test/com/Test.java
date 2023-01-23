@@ -1,26 +1,31 @@
 package test.com;
 
-import java.util.Arrays;
-import java.util.HashSet;
+import java.util.ArrayList;
 import java.util.List;
-import java.util.Set;
 
 public class Test {
 
     public static void main(String[] args) {
         String playersArray[]
-                = {"Virat", "Sachin", "Rohit", "Bumrah", "Rohit"};
+                = {"mmm", "kkkk", "frfgf"};
 
 
-        System.out.println("Array input: "
-                + Arrays.toString(playersArray));
+//        List<String> list = Arrays.asList(Arrays.toString(playersArray));
+//        System.out.println(list);
+//
+//        Set<String> set = new TreeSet<>(list);
+//        System.out.println(set);
+
+        List<String> ll = new ArrayList<>();
+//        Collections.addAll(ll, playersArray);
+//        System.out.println(ll);
+
+        for (String str : playersArray) {
+            ll.add(str);
 
 
-        List aa = Arrays.asList(playersArray);
-        System.out.println(aa);
-        Set<String> hSet = new HashSet<String>(aa);
-        for (String x : hSet)
-            System.out.println(x);
+        }
+        System.out.println(ll);
 
 
     }

@@ -1,9 +1,6 @@
 package arrays_package.com;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 public class Arrays_Conversions {
 
@@ -11,16 +8,31 @@ public class Arrays_Conversions {
         String playersArray[]
                 = {"Virat", "Sachin", "Rohit", "Bumrah", "Rohit"};
 
+        // Method 1
+        List<String> list = Arrays.asList(playersArray);
+        System.out.println(list);
 
-        System.out.println("Array input: "
-                + Arrays.toString(playersArray));
+
+        // Method 2
+        List<String> ll = new ArrayList<>();
+        Collections.addAll(ll, playersArray);
+        System.out.println(ll);
+
+        // Method 3
+        List<String> dl = new ArrayList<>();
+        for (String str : playersArray) {
+            dl.add(str);
 
 
-        List aa = Arrays.asList(playersArray);
-        System.out.println(aa);
-        Set<String> hSet = new HashSet<String>(aa);
-        for (String x : hSet)
-            System.out.println(x);
+        }
+        System.out.println(ll);
+
+
+        //4
+        //converting the list To  Set
+
+        Set<String> setString = new TreeSet<>(dl);
+        System.out.println(setString);
 
 
     }

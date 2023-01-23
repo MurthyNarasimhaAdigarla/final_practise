@@ -11,8 +11,8 @@ public class Second_Largest_Num_In_Array {
     public static int second(int[] marks) {
         int temp;
         int length = marks.length;
-        for (int i = 0; i < marks.length; i++) {
-            for (int j = i + 1; j < marks.length; j++) {
+        for (int i = 0; i < length; i++) {
+            for (int j = i + 1; j < length; j++) {
 
                 if (marks[i] > marks[j]) {
                     temp = marks[i];
@@ -21,7 +21,7 @@ public class Second_Largest_Num_In_Array {
                 }
             }
         }
-        return marks[length -1];
+        return marks[length -3];
 
     }
 
