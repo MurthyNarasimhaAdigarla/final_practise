@@ -3,7 +3,7 @@ package arrays_package.com;
 public class Remove_Dups_Array {
     public static void main(String[] args) {
 
-        int arr[] = {10, 20, 30, 50, 50,50};
+        int[] arr = {10, 20, 30, 50, 50,50};
         int length = arr.length;
         length = removeDuplicates(arr, length);
         //printing array elements
@@ -15,7 +15,7 @@ public class Remove_Dups_Array {
     // Function to remove duplicate elements
     // This function returns new size of modified
     // array.
-    static int removeDuplicates(int arr[], int n) {
+    static int removeDuplicates(int[] arr, int n) {
 
         if (n == 0 || n == 1) {
             return n;

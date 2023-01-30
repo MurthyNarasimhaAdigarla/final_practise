@@ -12,4 +12,4 @@ public class Decreasing_triangle_pattern {
         }
 
     }
-}
+}  
